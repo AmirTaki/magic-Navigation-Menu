@@ -86,4 +86,16 @@ body {
     background:#29fd53;   
     border-radius: 50%;
     border: 6px solid var(--clr);
+    transform: .5s;
 }
+
+.indicator::before{
+    content: "";
+    position: absolute;
+    top:29px;
+    left:-20px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-top-right-radius: 20px ;
+}  
