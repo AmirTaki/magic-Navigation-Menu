@@ -111,3 +111,7 @@ body {
     border-top-left-radius: 20px ;
     box-shadow: 0 -10px 0 0 var(--clr);
 }  
+
+.navigation ul li:nth-child(1).active ~ .indicator {
+    transform: translateX(calc(70px * 0));
+}
