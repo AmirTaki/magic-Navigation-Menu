@@ -59,5 +59,14 @@ body {
 }
 
 .navigation ul li:hover a .icon {
-    transform: translateY(-50px);
+    transform: translateY(-35px);
+}
+.navigation ul li a .text{
+    position: absolute;
+    color : var(--clr);
+    font-weight: 400;
+    font-size: .75em;
+    letter-spacing: .05em;
+    transition: .5s;
+    opacity: 0;
 }
