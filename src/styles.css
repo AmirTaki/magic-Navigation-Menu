@@ -24,6 +24,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    position: relative;
 }
 
 .navigation ul{
@@ -75,4 +76,14 @@ body {
 .navigation ul li.active a .text{
     opacity: 1;
     transform: translateY(45px);
+}
+
+.indicator{
+    position: absolute;
+    top:-50%;
+    width: 70px;
+    height: 70px;
+    background:#29fd53;   
+    border-radius: 50%;
+    border: 6px solid var(--clr);
 }
